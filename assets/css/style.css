@@ -76,28 +76,28 @@
 
 /* Configurações básicas */
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: var(--white);
-  line-height: 1.6;
-  color: var(--black);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--white);
+    line-height: 1.6;
+    color: var(--black);
 }
 
 main {
-  flex: 1;
+    flex: 1;
 }
 
 /* Configurações básicas das seções */
 .section-container {
-  max-width: 70rem;
-  margin: 0 auto;
-  padding: var(--spacing-xl) var(--spacing-md);
-  scroll-margin-top: 6rem;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: var(--spacing-xl) var(--spacing-md);
+    scroll-margin-top: 6rem;
 }
 
 /* Estilos para os botões */
@@ -159,24 +159,24 @@ main {
 
 /* Estilos para o header */
 header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  width: 100%;
-  height: 5rem;
-  border-bottom: var(--spacing-xs) solid var(--gray-200);
-  background-color: var(--purple-800);
-  box-shadow: var(--shadow-sm);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 5rem;
+    border-bottom: var(--spacing-xs) solid var(--gray-200);
+    background-color: var(--purple-800);
+    box-shadow: var(--shadow-sm);
 }
 
 header a {
-  font-weight: 600;
-  color: var(--white);
-  transition: color 0.3s ease;
+    font-weight: 600;
+    color: var(--white);
+    transition: color 0.3s ease;
 }
 
 header a:hover {
-  color: var(--purple-100);
+    color: var(--purple-100);
 }
 
 /* Estilos para o menu de navegação */
@@ -288,6 +288,7 @@ header a:hover {
     border-radius: var(--radius-full);
     box-shadow: var(--shadow-lg);
 }
+
 /* Painel direito */
 .about-content h2,
 .projects-container h2,
@@ -413,7 +414,7 @@ header a:hover {
 .project-content p {
     flex: 1;
     margin-bottom: var(--spacing-sm);
-    font-size: var(--text-base); 
+    font-size: var(--text-base);
     color: var(--gray-400);
 }
 
@@ -525,14 +526,7 @@ header a:hover {
 }
 
 .social-icon:hover img {
-    filter: brightness(0) 
-            saturate(100%) 
-            invert(42%) 
-            sepia(93%) 
-            saturate(1352%) 
-            hue-rotate(243deg) 
-            brightness(79%) 
-            contrast(91%);
+    filter: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(1352%) hue-rotate(243deg) brightness(79%) contrast(91%);
 }
 
 /* ******* Estilos para o Formulário ******** */
@@ -542,6 +536,7 @@ form {
     flex-direction: column;
     gap: 0.75rem;
 }
+
 /* Labels */
 form label {
     font-size: var(--text-base);
@@ -631,16 +626,10 @@ footer {
 .success-icon img {
     width: 6rem;
     height: 6rem;
-    filter: brightness(0) 
-            saturate(100%) 
-            invert(11%) 
-            sepia(69%) 
-            saturate(3759%) 
-            hue-rotate(256deg) 
-            brightness(101%) 
-            contrast(96%);
+    filter: brightness(0) saturate(100%) invert(11%) sepia(69%) saturate(3759%) hue-rotate(256deg) brightness(101%) contrast(96%);
 }
-/* --------------------------------------------------------------- */ 
+
+/* --------------------------------------------------------------- */
 /* --------------------- Página success.html --------------------- */
 
 /* Container */
@@ -689,14 +678,7 @@ footer {
 .success-icon img {
     width: 6rem;
     height: 6rem;
-    filter: brightness(0) 
-            saturate(100%) 
-            invert(11%) 
-            sepia(69%) 
-            saturate(3759%) 
-            hue-rotate(256deg) 
-            brightness(101%) 
-            contrast(96%);
+    filter: brightness(0) saturate(100%) invert(11%) sepia(69%) saturate(3759%) hue-rotate(256deg) brightness(101%) contrast(96%);
 }
 
 /* -------------------RESPONSIVIDADE------------------------------------- */
@@ -704,7 +686,7 @@ footer {
 
 /* Layout, tipografia e menu */
 @media screen and (max-width: 1024px) {
-   
+
     /* Layout geral*/
     .section-container {
         padding: var(--spacing-lg) var(--spacing-md);
@@ -719,7 +701,7 @@ footer {
         font-size: var(--text-2xl);
     }
 
-    .section-container p  {
+    .section-container p {
         font-size: var(--text-base);
     }
 
@@ -733,12 +715,12 @@ footer {
     }
 
     .success-content h2 {
-        font-size: var(--text-lg); 
+        font-size: var(--text-lg);
     }
 
     /* Header */
     #titulo {
-        font-size: var(--text-xl); 
+        font-size: var(--text-xl);
     }
 
     /* Header - Menu */
@@ -1083,7 +1065,7 @@ footer {
         padding: var(--spacing-md) var(--spacing-sm);
         font-size: var(--text-sm);
     }
-    
+
     /* Página de sucesso */
     .success-container {
         padding: var(--spacing-lg) var(--spacing-sm);
@@ -1111,5 +1093,6 @@ footer {
         max-width: 20rem;
         padding: 0.75rem var(--spacing-lg);
     }
+
 
 }
